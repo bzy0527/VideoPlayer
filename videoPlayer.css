@@ -1,0 +1,289 @@
+
+.VideoPlayer {
+    width: 320px;
+    height: 180px;
+    /*border: 1px solid sienna;*/
+    vertical-align: top;
+}
+
+.VideoPlayer *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.VideoPlayer .float {
+    float: left;
+}
+
+.VideoPlayer .VideoPlayer_LoadError {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.55);
+    color: #e5e5e5;
+    font-size: 10px;
+    font-family: "宋体";
+    font-weight: lighter;
+
+    display: flex; /* IE10 */
+    display: flexbox; /* IE10 */
+    display: -moz-box; /* Firefox */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /*文字取消选中效果*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.VideoPlayer .VideoPlayer_LoadErrorHidden {
+    display: none;
+}
+
+.VideoPlayer .VideoPlayer_Wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.VideoPlayer .VideoPlayer_Video {
+    width: 100%;
+    height: 100%;
+    background-color: #2b2b2b;
+    object-fit: contain;
+}
+
+.VideoPlayer .VideoPlayer_ControlBar {
+    width: 100%;
+    min-height: 40px;
+    /*height: 40px;*/
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+    /*padding: 10px 0;*/
+
+    display: flex; /* IE10 */
+    display: flexbox; /* IE10 */
+    display: -moz-box; /* Firefox */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.VideoPlayer .VideoPlayer_ControlBarHidden {
+    display: none;
+}
+
+.VideoPlayer_ControlBar .VideoPlayer_VideoPlay {
+    width: 5%;
+    min-width: 5px;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex; /* IE10 */
+    display: flexbox; /* IE10 */
+    display: -moz-box; /* Firefox */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.VideoPlayer_VideoPlayImg {
+    display: inline-block;
+    max-height: 16px;
+    max-width: 16px;
+}
+
+.VideoPlayer_ControlBar .VideoPlayer_Slider{
+    width: 50%;
+    min-width: 10px;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.VideoPlayer .VideoPlayer_SliderRange{
+    z-index: 3;
+    position: relative;
+    width: 100%;
+    /*background-color: transparent !important;*/
+    height: 1px;
+    border: none;
+    outline: 0px;
+
+    /*background-color: #c0392b !important;*/
+
+}
+
+.VideoPlayer_ControlBar input[type=range]{
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.VideoPlayer_ControlBar input[type=range]::-moz-range-track {
+    vertical-align: middle;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.7);
+    -moz-appearance: none;
+    background-color: white;
+    height: 2px;
+    cursor: pointer;
+}
+
+.VideoPlayer_ControlBar input[type=range]::-moz-range-thumb {
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border: 0;
+}
+
+.VideoPlayer_ControlBar input[type=range].light::-moz-range-thumb {
+    box-shadow: 0 0 8px 2px white;
+}
+
+.VideoPlayer_ControlBar input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border: 0;
+}
+
+.VideoPlayer_ControlBar input[type=range].light::-webkit-slider-thumb {
+    box-shadow: 0 0 8px 2px white;
+}
+
+/*.custom-video-controlbar input[type=range]:active::-moz-range-track {*/
+    /*background: orange;*/
+/*}*/
+
+.VideoPlayer .VideoPlayer_Time {
+    width: 20%;
+    min-width: 65px;
+    font-size: 10px;
+    color: #e0dfdf;
+    text-align: left;
+    padding-left: 5px;
+    line-height: 20px;
+
+    /*文字取消选中效果*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.VideoPlayer .VideoPlayer_Mute {
+    width: 5%;
+    min-width: 5px;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex; /* IE10 */
+    display: flexbox; /* IE10 */
+    display: -moz-box; /* Firefox */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.VideoPlayer .VideoPlayer_MuteImg{
+    /*height: 100%;*/
+    display: inline-block;
+    max-height: 16px;
+    max-width: 16px;
+}
+
+.VideoPlayer .VideoPlayer_Volume {
+    width: 15%;
+    min-width: 10px;
+    overflow: hidden;
+}
+
+.VideoPlayer .VideoPlayer_VolumeRange {
+    display: inline-block;
+    width: 96%;
+    outline: 0px;
+}
+
+.VideoPlayer .VideoPlayer_FullScreen {
+    width: 5%;
+    min-width: 5px;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex; /* IE10 */
+    display: flexbox; /* IE10 */
+    display: -moz-box; /* Firefox */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.VideoPlayer .VideoPlayer_FullScreenImg {
+    display: inline-block;
+    max-height: 16px;
+    max-width: 16px;
+}
+
+
+.VideoPlayer .VideoPlayer_CenterPlayBtn {
+    position: absolute;
+    z-index: 10000;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    width: 100px;
+    height: 100px;
+    display: block;
+
+    cursor: pointer;
+}
+
+.VideoPlayer .VideoPlayer_CenterPlayBtnHidden{
+    display: none;
+}
+
+
+.VideoPlayer .VideoPlayer_CenterPlayImg {
+    width: 100%;
+    height: 100%;
+}
+
+.rotate90{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

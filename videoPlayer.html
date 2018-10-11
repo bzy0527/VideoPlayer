@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>videoPlayer</title>
+    <link rel="stylesheet" href="videoPlayer.css">
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.js"></script>
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.data.js"></script>
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.commodel.js"></script>
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.serializer.js"></script>
+    <script src="https://lc.dbazure.cn/dbfxui/dbfx.web.controls.js"></script>
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.app.js"></script>
+    <script src="videoPlayer.js"></script>
+</head>
+<body>
+<dbc>
+    <div id="div" style="width: 700px;height: 600px;border: 1px solid cyan;">
+        <div style="width: 20px;height: 30px;border: 1px solid red;display: inline-block"></div>
+    </div>
+</dbc>
+
+<script>
+    var vp = new DBFX.Web.Controls.VideoPlayer();
+    var div = document.getElementById("div");
+    vp.VisualElement.style.display = "inline-block";
+    div.appendChild(vp.VisualElement);
+
+    //http://www.html5videoplayer.net/videos/madagascar3.mp4
+    //https://www.apple.com/105/media/cn/iphone-xr/2018/e7f073a7-e8ae-4c18-937b-91d8939fcadd/films/design/iphone-xr-design-tpl-cn-2018_1280x720h.mp4
+    // vp.VideoUrl = "http://180.97.241.41/657277E07F7308132DAEE368DC/03000A03005BA6DF39A238C04B5D50A91C2E3B-0769-46DF-9D7F-34AB75964D27.mp4?ccode=0502&duration=394&expire=18000&psid=61b86c4c4e05238bcd42abcbd84fccda&ups_client_netip=2430521d&ups_ts=1538098642&ups_userid=&utid=UXM0FDh4jg0CASQwUh0beneM&vid=XMzgzMzc1MTMzNg&vkey=A980e805dea25d7a45400e68894b7cddf&sp=";
+    vp.VideoUrl = "https://www.apple.com/105/media/cn/iphone-xr/2018/e7f073a7-e8ae-4c18-937b-91d8939fcadd/films/design/iphone-xr-design-tpl-cn-2018_1280x720h.mp4";
+    // vp.AutoPlay = "是";
+    // vp.IsRotate = "否";
+
+    vp.Width = "320px";
+    vp.Height = "180px";
+
+    var fileReader = new FileReader();
+    fileReader.readAsDataURL("./02.mp4");
+
+</script>
+</body>
+</html>
