@@ -14,7 +14,7 @@
 
     <c T="wc:BreakLine" BackgroundColor="lightgray"  BorderWidth="0px"    Height="1px" Margin="2px" />
     <c T="wc:BreakLine" />
-    <c T="wc:Label" Text="自动播放:" Margin="4px 2px 2px 16px" Float="left"/>
+    <c T="wc:Label" Text="播放方式:" Margin="4px 2px 2px 16px" Float="left"/>
     <c T="wc:ComboBox" Display="block" Height="26px" Margin="2px 14px 2px 16px" DataBindings="{&quot;Path&quot;:&quot;AutoPlay&quot;,&quot;Mode&quot;:&quot;OneWay&quot;,&quot;Source&quot;:&quot;&quot;}" >
         <Items>
               <Item Text="自动播放" Value="是"  ImageUrl="" />
@@ -30,7 +30,7 @@
          </Items>
     </c>
     <c T="wc:BreakLine" />
-    <c T="wc:Label" Text="资源地址:" Margin="4px 2px 2px 16px" Float="left"/>
+    <c T="wc:Label" Text="视频资源:" Margin="4px 2px 2px 16px" Float="left"/>
     <c T="wc:TextBox" Display="block" Height="26px" Margin="2px 14px 2px 16px" DataBindings="{&quot;Path&quot;:&quot;VideoUrl&quot;,&quot;Mode&quot;:&quot;OneWay&quot;,&quot;Source&quot;:&quot;&quot;}" />
       </controls>
     </c>

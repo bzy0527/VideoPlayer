@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9b051f0-3381-4400-8f30-91171af7f05f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/VideoPlayerDesigner.scrp" afterPath="$PROJECT_DIR$/VideoPlayerDesigner.scrp" />
+      <change beforePath="$PROJECT_DIR$/videoPlayer.css" afterPath="$PROJECT_DIR$/videoPlayer.css" />
+      <change beforePath="$PROJECT_DIR$/videoPlayer.js" afterPath="$PROJECT_DIR$/videoPlayer.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="videoPlayer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoPlayer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4250">
+              <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videoPlayer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/videoPlayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="393" column="8" lean-forward="false" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="60" />
+              <folding>
+                <element signature="e#882#1162#0" expanded="false" />
+                <element signature="e#1246#1426#0" expanded="false" />
+                <element signature="e#1516#1660#0" expanded="false" />
+                <element signature="e#1782#1959#0" expanded="false" />
+                <element signature="e#6606#7348#0" expanded="false" />
+                <element signature="e#6752#6963#0" expanded="false" />
+                <element signature="e#9056#9476#0" expanded="false" />
+                <element signature="e#9554#10002#0" expanded="false" />
+                <element signature="e#11393#11542#0" expanded="false" />
+                <element signature="e#11570#11774#0" expanded="false" />
+                <element signature="e#11871#12506#0" expanded="false" />
+                <element signature="e#12553#12740#0" expanded="false" />
+                <element signature="e#12811#14019#0" expanded="false" />
+                <element signature="e#14078#14379#0" expanded="false" />
+                <element signature="e#15056#15542#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videoPlayer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoPlayer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoPlayerDesigner.scrp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VideoPlayerDesigner.scrp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hi-video-controlbar</find>
+      <find>custom-video-controlbar</find>
+      <find>totalTimeSpan</find>
+      <find>origHeight</find>
+      <find>self.videoParent</find>
+      <find>ideoResource</find>
+      <find>isRotate</find>
+      <find>VideoPlayer_CenterPlayBtnNone</find>
+      <find>&quot;./assets/images</find>
+      <find>options</find>
+      <find>autoHide</find>
+      <find>ver</find>
+      <find>ctlBarShow</find>
+      <find>vp.controlBar</find>
+      <find>vp.centerBtn</find>
+      <find>vp.curTimeSpan</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>vp</replace>
+      <replace>vp.VisualElement</replace>
+      <replace>ideoUrl</replace>
+      <replace>vp.isRotate</replace>
+      <replace>VideoPlayer_ControlBar</replace>
+      <replace>&quot;Themes/&quot; + app.CurrentTheme + &quot;/Images</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/hivideo.css" />
+        <option value="$PROJECT_DIR$/hivideo.js" />
+        <option value="$PROJECT_DIR$/videoUpload.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/videoPlayer.html" />
+        <option value="$PROJECT_DIR$/videoP.html" />
+        <option value="$PROJECT_DIR$/videoPlayer.js" />
+        <option value="$PROJECT_DIR$/videoPlayer.css" />
+        <option value="$PROJECT_DIR$/VideoPlayerDesigner.scrp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="662" />
+    <option name="y" value="62" />
+    <option name="width" value="1216" />
+    <option name="height" value="898" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="VideoPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoPlayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9b051f0-3381-4400-8f30-91171af7f05f" name="Default" comment="" />
+      <created>1537938417765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537938417765</updated>
+      <workItem from="1537938419236" duration="64086000" />
+      <workItem from="1538959182689" duration="4876000" />
+      <workItem from="1539068165818" duration="166000" />
+      <workItem from="1539068523650" duration="441000" />
+      <workItem from="1539303491172" duration="485000" />
+      <workItem from="1539583119235" duration="5499000" />
+      <workItem from="1540427564892" duration="1917000" />
+      <workItem from="1541723495672" duration="302000" />
+      <workItem from="1542165613268" duration="365000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78137000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="662" y="62" width="1216" height="898" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17434211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/VideoPlayerDesigner.scrp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="e#882#1162#0" expanded="false" />
+            <element signature="e#1246#1426#0" expanded="false" />
+            <element signature="e#1516#1660#0" expanded="false" />
+            <element signature="e#1782#1959#0" expanded="false" />
+            <element signature="e#6606#7348#0" expanded="false" />
+            <element signature="e#6752#6963#0" expanded="false" />
+            <element signature="e#9056#9476#0" expanded="false" />
+            <element signature="e#9554#10002#0" expanded="false" />
+            <element signature="e#11393#11542#0" expanded="false" />
+            <element signature="e#11570#11774#0" expanded="false" />
+            <element signature="e#11871#12506#0" expanded="false" />
+            <element signature="e#12553#12740#0" expanded="false" />
+            <element signature="e#12811#14019#0" expanded="false" />
+            <element signature="e#14078#14379#0" expanded="false" />
+            <element signature="e#15056#15542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoPlayerDesigner.scrp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/assets/hivideo.css" />
+    <entry file="file://$PROJECT_DIR$/hivideo.js" />
+    <entry file="file://$PROJECT_DIR$/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="e#882#1162#0" expanded="false" />
+            <element signature="e#1246#1426#0" expanded="false" />
+            <element signature="e#1516#1660#0" expanded="false" />
+            <element signature="e#1782#1959#0" expanded="false" />
+            <element signature="e#6606#7348#0" expanded="false" />
+            <element signature="e#6752#6963#0" expanded="false" />
+            <element signature="e#9056#9476#0" expanded="false" />
+            <element signature="e#9554#10002#0" expanded="false" />
+            <element signature="e#11393#11542#0" expanded="false" />
+            <element signature="e#11570#11774#0" expanded="false" />
+            <element signature="e#11871#12506#0" expanded="false" />
+            <element signature="e#12553#12740#0" expanded="false" />
+            <element signature="e#12811#14019#0" expanded="false" />
+            <element signature="e#14078#14379#0" expanded="false" />
+            <element signature="e#15056#15542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoP.html" />
+    <entry file="file://$PROJECT_DIR$/videoUpload.html" />
+    <entry file="file://$PROJECT_DIR$/VideoPlayerDesigner.scrp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/assets/hivideo.css" />
+    <entry file="file://$PROJECT_DIR$/hivideo.js" />
+    <entry file="file://$PROJECT_DIR$/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="e#882#1162#0" expanded="false" />
+            <element signature="e#1246#1426#0" expanded="false" />
+            <element signature="e#1516#1660#0" expanded="false" />
+            <element signature="e#1782#1959#0" expanded="false" />
+            <element signature="e#6606#7348#0" expanded="false" />
+            <element signature="e#6752#6963#0" expanded="false" />
+            <element signature="e#9056#9476#0" expanded="false" />
+            <element signature="e#9554#10002#0" expanded="false" />
+            <element signature="e#11393#11542#0" expanded="false" />
+            <element signature="e#11570#11774#0" expanded="false" />
+            <element signature="e#11871#12506#0" expanded="false" />
+            <element signature="e#12553#12740#0" expanded="false" />
+            <element signature="e#12811#14019#0" expanded="false" />
+            <element signature="e#14078#14379#0" expanded="false" />
+            <element signature="e#15056#15542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoP.html" />
+    <entry file="file://$PROJECT_DIR$/videoUpload.html" />
+    <entry file="file://$PROJECT_DIR$/VideoPlayerDesigner.scrp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/assets/hivideo.css" />
+    <entry file="file://$PROJECT_DIR$/hivideo.js" />
+    <entry file="file://$PROJECT_DIR$/videoPlayer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="97" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#882#1162#0" expanded="false" />
+            <element signature="e#1246#1426#0" expanded="false" />
+            <element signature="e#1516#1660#0" expanded="false" />
+            <element signature="e#1782#1959#0" expanded="false" />
+            <element signature="e#6606#7348#0" expanded="false" />
+            <element signature="e#6752#6963#0" expanded="false" />
+            <element signature="e#9056#9476#0" expanded="false" />
+            <element signature="e#9554#10002#0" expanded="false" />
+            <element signature="e#11393#11542#0" expanded="false" />
+            <element signature="e#11570#11774#0" expanded="false" />
+            <element signature="e#11871#12506#0" expanded="false" />
+            <element signature="e#12553#12740#0" expanded="false" />
+            <element signature="e#12811#14019#0" expanded="false" />
+            <element signature="e#14078#14379#0" expanded="false" />
+            <element signature="e#15056#15542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoP.html" />
+    <entry file="file://$PROJECT_DIR$/videoUpload.html" />
+    <entry file="file://$PROJECT_DIR$/VideoPlayerDesigner.scrp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/volume.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/play-big.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/play.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/mute.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/fullscreen.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/fullscreen_off.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/stop.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/pause.png" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="7722" column="4" lean-forward="false" selection-start-line="7722" selection-start-column="4" selection-end-line="7722" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hivideo.js" />
+    <entry file="file://$PROJECT_DIR$/assets/hivideo.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="3808" column="2" lean-forward="false" selection-start-line="3808" selection-start-column="2" selection-end-line="3808" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoUpload.html" />
+    <entry file="file://$PROJECT_DIR$/videoP.html" />
+    <entry file="file://$PROJECT_DIR$/videoPlayer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#dbc#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoPlayerDesigner.scrp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="393" column="8" lean-forward="false" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="60" />
+          <folding>
+            <element signature="e#882#1162#0" expanded="false" />
+            <element signature="e#1246#1426#0" expanded="false" />
+            <element signature="e#1516#1660#0" expanded="false" />
+            <element signature="e#1782#1959#0" expanded="false" />
+            <element signature="e#6606#7348#0" expanded="false" />
+            <element signature="e#6752#6963#0" expanded="false" />
+            <element signature="e#9056#9476#0" expanded="false" />
+            <element signature="e#9554#10002#0" expanded="false" />
+            <element signature="e#11393#11542#0" expanded="false" />
+            <element signature="e#11570#11774#0" expanded="false" />
+            <element signature="e#11871#12506#0" expanded="false" />
+            <element signature="e#12553#12740#0" expanded="false" />
+            <element signature="e#12811#14019#0" expanded="false" />
+            <element signature="e#14078#14379#0" expanded="false" />
+            <element signature="e#15056#15542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

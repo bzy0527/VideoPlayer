@@ -122,29 +122,29 @@ DBFX.Web.Controls.VideoPlayer = function () {
         //TODO:1、根据是否自动播放 设置默认显示图片 2、集成到平台  地址需要更改
         // "Themes/" + app.CurrentTheme + "/Images/XXX.png"
 
-        vp.centerBtnImg.src = "./assets/images/play-big.png";
-        vp.playBtnImg.src = "./assets/images/play.png";
-        vp.muteImg.src = "./assets/images/volume.png";
-        vp.fullScreenImg.src = "./assets/images/fullscreen.png";
+        vp.centerBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/play-big.png";
+        vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/play.png";
+        vp.muteImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/volume.png";
+        vp.fullScreenImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/fullscreen.png";
 
-        // vp.centerBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/play-big.png";
-        // vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/play.png";
-        // vp.muteImg.src = "Themes/" + app.CurrentTheme + "/Images/volume.png";
-        // vp.fullScreenImg.src = "Themes/" + app.CurrentTheme + "/Images/fullscreen.png";
-
+        // vp.centerBtnImg.src = "./play-big.png";
+        // vp.playBtnImg.src = "./play.png";
+        // vp.muteImg.src = "./volume.png";
+        // vp.fullScreenImg.src = "./fullscreen.png";
 
         //视频加载成功前 播放按钮不显示
         vp.centerBtn.className = "VideoPlayer_CenterPlayBtnHidden";
         vp.controlBar.className = "VideoPlayer_ControlBarHidden";
 
         //视频事件
-        //loadstart
+        //loadstart 开始加载
         vp.video.addEventListener("loadstart", function(){
             console.log("loadstart");
             console.log(vp.video.networkState);
 
         },false);
 
+        //视频时间改变
         vp.video.addEventListener("durationchange", function(){
             vp.errorTip.className = "VideoPlayer_LoadErrorHidden";
         },false);
@@ -193,10 +193,9 @@ DBFX.Web.Controls.VideoPlayer = function () {
             if(!vp.isPhone){
                 vp.centerBtn.className = "VideoPlayer_CenterPlayBtn";
             }
-
             vp.playRange.style.background = "white";
             //TODO:更换显示图标  集成后更改路径
-            vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/play.png";
+            vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/play.png";
         });
 
 
@@ -317,17 +316,16 @@ DBFX.Web.Controls.VideoPlayer = function () {
         if(vp.video.paused){
             vp.video.play();
             //TODO:更换显示图标  集成后更改路径
-            vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/pause.png";
+            vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/pause.png";
             vp.centerBtn.className = "VideoPlayer_CenterPlayBtnHidden";
 
         }else {
             vp.video.pause();
             //TODO:更换显示图标  集成后更改路径
-            vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/play.png";
+            vp.playBtnImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/play.png";
             if(!vp.isPhone){
                 vp.centerBtn.className = "VideoPlayer_CenterPlayBtn";
             }
-
         }
     }
 
@@ -354,7 +352,7 @@ DBFX.Web.Controls.VideoPlayer = function () {
                 vp.VisualElement.style.height = cltHeight + "px";
                 vp.VisualElement.style.width = cltWidth + "px";
 
-                vp.fullScreenImg.src = "Themes/" + app.CurrentTheme + "/Images/fullscreen_off.png";
+                vp.fullScreenImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/fullscreen_off.png";
             }else{
 
                 if(vp.isRotate && vp.VisualElement.classList.contains("rotate90")){
@@ -363,7 +361,7 @@ DBFX.Web.Controls.VideoPlayer = function () {
                 vp.VisualElement.style.height = vp.origHeight + "px";
                 vp.VisualElement.style.width = vp.origWidth + "px";
 
-                vp.fullScreenImg.src = "Themes/" + app.CurrentTheme + "/Images/fullscreen.png";
+                vp.fullScreenImg.src = "Themes/" + app.CurrentTheme + "/Images/VideoPlayer/fullscreen.png";
             }
 
         },false);
